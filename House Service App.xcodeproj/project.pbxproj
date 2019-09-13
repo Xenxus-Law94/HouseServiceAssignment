@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B3D6FF926C7DAF82F94138 /* Pods_House_Service_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EEE3C463D29EDA99828056 /* Pods_House_Service_App.framework */; };
+		DB273CA62328DCFC0071EF2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CA52328DCFC0071EF2B /* AppDelegate.swift */; };
+		DB273CA82328DCFC0071EF2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CA72328DCFC0071EF2B /* ViewController.swift */; };
+		DB273CAB2328DCFC0071EF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB273CA92328DCFC0071EF2B /* Main.storyboard */; };
+		DB273CAD2328DCFD0071EF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB273CAC2328DCFD0071EF2B /* Assets.xcassets */; };
+		DB273CB02328DCFD0071EF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB273CAE2328DCFD0071EF2B /* LaunchScreen.storyboard */; };
+		DB273CC52328FE610071EF2B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CC42328FE610071EF2B /* NetworkClient.swift */; };
+		DB273CC72328FED00071EF2B /* ShareConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CC62328FED00071EF2B /* ShareConstants.swift */; };
+		DB273CC9232901150071EF2B /* HouseServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CC8232901150071EF2B /* HouseServiceResponse.swift */; };
+		DB273CCB232901670071EF2B /* HouseVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CCA232901670071EF2B /* HouseVO.swift */; };
+		DB273CCD232903C50071EF2B /* HouseServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CCC232903C50071EF2B /* HouseServiceModel.swift */; };
+		DB273CD02329069C0071EF2B /* HouseServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CCE2329069C0071EF2B /* HouseServiceTableViewCell.swift */; };
+		DB273CD12329069C0071EF2B /* HouseServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB273CCF2329069C0071EF2B /* HouseServiceTableViewCell.xib */; };
+		DB273CD42329312A0071EF2B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CD32329312A0071EF2B /* CardView.swift */; };
+		DB273CD6232A2C4A0071EF2B /* HouseListItemActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CD5232A2C4A0071EF2B /* HouseListItemActionDelegate.swift */; };
+		DB273CD8232A31BB0071EF2B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CD7232A31BB0071EF2B /* BaseViewController.swift */; };
+		DB273CDA232A8CF30071EF2B /* HouseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CD9232A8CF30071EF2B /* HouseDetailsViewController.swift */; };
+		DB273CDC232B57480071EF2B /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB273CDB232B57480071EF2B /* Route.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30EEE3C463D29EDA99828056 /* Pods_House_Service_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_House_Service_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81445F13B63D0E1DAF57CD2E /* Pods-House Service App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-House Service App.release.xcconfig"; path = "Target Support Files/Pods-House Service App/Pods-House Service App.release.xcconfig"; sourceTree = "<group>"; };
+		D8D661781F7A19F58F979443 /* Pods-House Service App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-House Service App.debug.xcconfig"; path = "Target Support Files/Pods-House Service App/Pods-House Service App.debug.xcconfig"; sourceTree = "<group>"; };
+		DB273CA22328DCFC0071EF2B /* House Service App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "House Service App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB273CA52328DCFC0071EF2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB273CA72328DCFC0071EF2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB273CAA2328DCFC0071EF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB273CAC2328DCFD0071EF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB273CAF2328DCFD0071EF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB273CB12328DCFD0071EF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB273CC42328FE610071EF2B /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		DB273CC62328FED00071EF2B /* ShareConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareConstants.swift; sourceTree = "<group>"; };
+		DB273CC8232901150071EF2B /* HouseServiceResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseServiceResponse.swift; sourceTree = "<group>"; };
+		DB273CCA232901670071EF2B /* HouseVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseVO.swift; sourceTree = "<group>"; };
+		DB273CCC232903C50071EF2B /* HouseServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseServiceModel.swift; sourceTree = "<group>"; };
+		DB273CCE2329069C0071EF2B /* HouseServiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseServiceTableViewCell.swift; sourceTree = "<group>"; };
+		DB273CCF2329069C0071EF2B /* HouseServiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseServiceTableViewCell.xib; sourceTree = "<group>"; };
+		DB273CD32329312A0071EF2B /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DB273CD5232A2C4A0071EF2B /* HouseListItemActionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListItemActionDelegate.swift; sourceTree = "<group>"; };
+		DB273CD7232A31BB0071EF2B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DB273CD9232A8CF30071EF2B /* HouseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailsViewController.swift; sourceTree = "<group>"; };
+		DB273CDB232B57480071EF2B /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB273C9F2328DCFC0071EF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B3D6FF926C7DAF82F94138 /* Pods_House_Service_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD8B87E6AB097FA3F482FCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30EEE3C463D29EDA99828056 /* Pods_House_Service_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		981414BF3955F70E89C06D7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8D661781F7A19F58F979443 /* Pods-House Service App.debug.xcconfig */,
+				81445F13B63D0E1DAF57CD2E /* Pods-House Service App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB273C992328DCFC0071EF2B = {
+			isa = PBXGroup;
+			children = (
+				DB273CA42328DCFC0071EF2B /* House Service App */,
+				DB273CA32328DCFC0071EF2B /* Products */,
+				981414BF3955F70E89C06D7B /* Pods */,
+				1AD8B87E6AB097FA3F482FCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB273CA32328DCFC0071EF2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CA22328DCFC0071EF2B /* House Service App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB273CA42328DCFC0071EF2B /* House Service App */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CC32328DD740071EF2B /* storyboards */,
+				DB273CC22328DD6B0071EF2B /* viewcontrollers */,
+				DB273CBF2328DD580071EF2B /* cells */,
+				DB273CD2232931050071EF2B /* components */,
+				DB273CBB2328DD3B0071EF2B /* data */,
+				DB273CBA2328DD240071EF2B /* networkclient */,
+				DB273CB92328DD1F0071EF2B /* utils */,
+				DB273CB82328DD190071EF2B /* model */,
+				DB273CB72328DD0C0071EF2B /* delegates */,
+				DB273CA52328DCFC0071EF2B /* AppDelegate.swift */,
+				DB273CAC2328DCFD0071EF2B /* Assets.xcassets */,
+				DB273CAE2328DCFD0071EF2B /* LaunchScreen.storyboard */,
+				DB273CB12328DCFD0071EF2B /* Info.plist */,
+			);
+			path = "House Service App";
+			sourceTree = "<group>";
+		};
+		DB273CB72328DD0C0071EF2B /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CD5232A2C4A0071EF2B /* HouseListItemActionDelegate.swift */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		DB273CB82328DD190071EF2B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CCC232903C50071EF2B /* HouseServiceModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DB273CB92328DD1F0071EF2B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CC62328FED00071EF2B /* ShareConstants.swift */,
+				DB273CDB232B57480071EF2B /* Route.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DB273CBA2328DD240071EF2B /* networkclient */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CC42328FE610071EF2B /* NetworkClient.swift */,
+			);
+			path = networkclient;
+			sourceTree = "<group>";
+		};
+		DB273CBB2328DD3B0071EF2B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CBC2328DD440071EF2B /* vos */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		DB273CBC2328DD440071EF2B /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CBE2328DD4E0071EF2B /* requests */,
+				DB273CBD2328DD480071EF2B /* responses */,
+				DB273CCA232901670071EF2B /* HouseVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		DB273CBD2328DD480071EF2B /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CC8232901150071EF2B /* HouseServiceResponse.swift */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
+		DB273CBE2328DD4E0071EF2B /* requests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		DB273CBF2328DD580071EF2B /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CC12328DD630071EF2B /* swifts */,
+				DB273CC02328DD5D0071EF2B /* xibs */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		DB273CC02328DD5D0071EF2B /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CCF2329069C0071EF2B /* HouseServiceTableViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		DB273CC12328DD630071EF2B /* swifts */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CCE2329069C0071EF2B /* HouseServiceTableViewCell.swift */,
+			);
+			path = swifts;
+			sourceTree = "<group>";
+		};
+		DB273CC22328DD6B0071EF2B /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CA72328DCFC0071EF2B /* ViewController.swift */,
+				DB273CD7232A31BB0071EF2B /* BaseViewController.swift */,
+				DB273CD9232A8CF30071EF2B /* HouseDetailsViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		DB273CC32328DD740071EF2B /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CA92328DCFC0071EF2B /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		DB273CD2232931050071EF2B /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DB273CD32329312A0071EF2B /* CardView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB273CA12328DCFC0071EF2B /* House Service App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB273CB42328DCFD0071EF2B /* Build configuration list for PBXNativeTarget "House Service App" */;
+			buildPhases = (
+				174B7DDCD46F1CCDD6C2AE12 /* [CP] Check Pods Manifest.lock */,
+				DB273C9E2328DCFC0071EF2B /* Sources */,
+				DB273C9F2328DCFC0071EF2B /* Frameworks */,
+				DB273CA02328DCFC0071EF2B /* Resources */,
+				268DD975DABC35CB6AD626BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "House Service App";
+			productName = "House Service App";
+			productReference = DB273CA22328DCFC0071EF2B /* House Service App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB273C9A2328DCFC0071EF2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = tunlukhant;
+				TargetAttributes = {
+					DB273CA12328DCFC0071EF2B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = DB273C9D2328DCFC0071EF2B /* Build configuration list for PBXProject "House Service App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB273C992328DCFC0071EF2B;
+			productRefGroup = DB273CA32328DCFC0071EF2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB273CA12328DCFC0071EF2B /* House Service App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB273CA02328DCFC0071EF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB273CB02328DCFD0071EF2B /* LaunchScreen.storyboard in Resources */,
+				DB273CAD2328DCFD0071EF2B /* Assets.xcassets in Resources */,
+				DB273CD12329069C0071EF2B /* HouseServiceTableViewCell.xib in Resources */,
+				DB273CAB2328DCFC0071EF2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174B7DDCD46F1CCDD6C2AE12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-House Service App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		268DD975DABC35CB6AD626BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-House Service App/Pods-House Service App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-House Service App/Pods-House Service App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-House Service App/Pods-House Service App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB273C9E2328DCFC0071EF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB273CCD232903C50071EF2B /* HouseServiceModel.swift in Sources */,
+				DB273CD42329312A0071EF2B /* CardView.swift in Sources */,
+				DB273CD8232A31BB0071EF2B /* BaseViewController.swift in Sources */,
+				DB273CC9232901150071EF2B /* HouseServiceResponse.swift in Sources */,
+				DB273CDC232B57480071EF2B /* Route.swift in Sources */,
+				DB273CD02329069C0071EF2B /* HouseServiceTableViewCell.swift in Sources */,
+				DB273CD6232A2C4A0071EF2B /* HouseListItemActionDelegate.swift in Sources */,
+				DB273CA82328DCFC0071EF2B /* ViewController.swift in Sources */,
+				DB273CA62328DCFC0071EF2B /* AppDelegate.swift in Sources */,
+				DB273CDA232A8CF30071EF2B /* HouseDetailsViewController.swift in Sources */,
+				DB273CC52328FE610071EF2B /* NetworkClient.swift in Sources */,
+				DB273CC72328FED00071EF2B /* ShareConstants.swift in Sources */,
+				DB273CCB232901670071EF2B /* HouseVO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB273CA92328DCFC0071EF2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB273CAA2328DCFC0071EF2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB273CAE2328DCFD0071EF2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB273CAF2328DCFD0071EF2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB273CB22328DCFD0071EF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB273CB32328DCFD0071EF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB273CB52328DCFD0071EF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D661781F7A19F58F979443 /* Pods-House Service App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "House Service App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.padc.House-Service-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB273CB62328DCFD0071EF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81445F13B63D0E1DAF57CD2E /* Pods-House Service App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "House Service App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.padc.House-Service-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB273C9D2328DCFC0071EF2B /* Build configuration list for PBXProject "House Service App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB273CB22328DCFD0071EF2B /* Debug */,
+				DB273CB32328DCFD0071EF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB273CB42328DCFD0071EF2B /* Build configuration list for PBXNativeTarget "House Service App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB273CB52328DCFD0071EF2B /* Debug */,
+				DB273CB62328DCFD0071EF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB273C9A2328DCFC0071EF2B /* Project object */;
+}
